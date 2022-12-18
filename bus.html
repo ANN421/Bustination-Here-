@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,23 +9,27 @@
     <style>
         .center {
   margin: auto;
-  width: 80%;
+  width: 100%;
   padding: 10px;
 }
         
         body {
+                width: 100%;
+                height: 500px;
                 background-image: url(/HTML/backgrnd.jpeg);
                 background-repeat: no-repeat;     
-                background-size: 100%; 
+                background-size:cover; 
              }
 
         h1 {
           font-size: 40px;
           text-shadow: 1in;
+          text-align: center;
         }
         h4 {
             font-size: 50px;
             text-align:center;
+            text-emphasis-color:white;
         }
     </style>
 </head><body>
@@ -35,19 +40,27 @@
    <div class="center">    <img src="/HTML/bus logo final.jpg" alt="bustination" width="600"  ALIGN="center"></div>
    
     </b><h4>is here to help you.........!!!</h4></body></html></div>
-
+    <div class="card-title" style="text-align:left;">
+        <H4><b>LOGIN HERE </b></H4>
+    </div>
+    <!--<div class="card-body">
+        <form id="myGeeks" method="post" action="login_action.php" autocomplete="off">
+            <div class="form-group">
+                <input class="form-control" type="text"
+            </div>
+        </form>
+    </div>-->
     <!--<main><h1><em>A NEW WAY OF TRAVEL....</em></h1></main>-->
-<div class="center">
-   <h1>Login</h1>
+<!--<div class="center">
+   <h1>Login</h1>-->
 
-    <form id="myGeeks">
-        
+    <center><form id="myGeeks"><p align="left">
             <input type="text"
                id="text_id"
                name="geeks"
                pattern="[A-Za-z]{3}"
-               value="Name">
-               <form id="myGeeks"> 
+               value="Name"width="100">
+               </p></center>
 
                 <BR>
                 <BR>
@@ -56,7 +69,14 @@
                 id="text_id"
                 name="geeks"
                 pattern="[A-Za-z]{3}"
-                value="Phone">
-    </form></section>
+                value="Phone"></p>
+    </form></div><div class="center">
+    <a href="/HTML/magnum/bus details.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHbSZJR3HJSF_INb9gDnbt96Ww96Yuyy_KjIUtcq9LAAJNuhUgYhuws04cpIyEM_dlgQ&usqp=CAU" height="60"></a></div>
+    <script>
+        function input(){
+            var x=document.getElementById("text_id").value;
+            document.getElementById("demo").value;
+        }
+    </script>
 </body>
 </html>
